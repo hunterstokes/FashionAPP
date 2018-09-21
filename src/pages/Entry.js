@@ -6,12 +6,13 @@ class Entry extends Component {
   render() {
     return (
       <div className='landingPage'> 
-        <h1> Welcome to the landing page </h1>
-          <a href="/main">
-            <button className='mainButton'>
-              Enter the main site
-             </button>
-          </a>
+        
+          <button className='mainButton'>
+            <a href="/main" className="mainSite">
+             Enter Site
+            </a>
+          </button>
+        
       </div>
     )
   }

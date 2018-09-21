@@ -1,0 +1,25 @@
+.landingPage {
+    background-image: url(../images/IMG_1313.JPG);
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainButton {
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  color: white;
+}
+.mainSite {
+  color: white;
+  text-decoration: none;
+}
