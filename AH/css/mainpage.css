@@ -1,0 +1,23 @@
+header {
+    background-color: #000000;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.col {
+    background: #555;
+    float: left;
+}
+
+.slider {
+    margin: 10%
+}

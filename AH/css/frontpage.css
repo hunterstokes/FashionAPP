@@ -1,0 +1,50 @@
+body {
+    background-image: URL(IMG_1313.JPG);
+    background-size: 2000px
+}
+
+.button {
+    right: 30%;
+}
+
+.panel {
+    background: rgba(0, 0, 0, 0.733);
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: #999999;
+    margin: 10%;
+    float: left;
+
+}
+
+.panel .header {
+    background: #000000;
+    box-align: center;
+    
+}
+
+.panel .body {
+    margin: 5%;
+    font-size: 105%;
+    }
+
+.panel .body .button {
+    position: relative;
+    left: 40%;
+}
+
+footer {
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    padding-top:1px;
+    padding-right:5px;
+    
+}
+
+footer .footer p {
+    color: #ffffff;
+    font-size: 60%;
+    float: left;
+}
